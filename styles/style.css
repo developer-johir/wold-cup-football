@@ -130,6 +130,36 @@ a.blog-btn {
     color: #ffffff;
 }
 
+
+
+/* second-round-styles */
+.second-blogs {
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.second-blogs span {
+    padding: 0 10px;
+}
+
+.second-blog-titel {
+    font-size: 18px;
+    font-weight: 600;
+    color: #161616;
+    text-align: center;
+}
+
+.second-blog-data {
+    font-size: 14px;
+    font-weight: 400;
+    color: #4D4D4D;
+    text-align: center;
+    padding: 10px 0;
+}
+
 /* ------- group-match-styles End------- */
 
 /* ---------- Blogs Styles Start ----------- */
