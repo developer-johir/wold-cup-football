@@ -341,6 +341,7 @@ hr {
     }
 
     .header-img img {
+        display: block;
         width: 100%;
         margin-top: 50px;
     }
@@ -411,6 +412,28 @@ hr {
                             tab responsive Styles
 --------------------------------------------------------------------------------*/
 @media only screen and (min-width: 577px) and (max-width: 992px) {
+    /* .header-content {
+        padding-left: 40px;
+        margin-top: -40px;
+    }
+
+    .header-content h1 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+    .header-content p {
+        margin-bottom: 20px;
+    }
+
+    .header-content a {
+        font-size: 16px;
+    }
+
+    .header-img {
+        width: 50%;
+    } */
+
     .blog-sections {
         width: 100%;
         display: flex;
