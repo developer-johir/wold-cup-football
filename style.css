@@ -14,14 +14,15 @@ body {
 /*---------------------------
     Header Styles Start
 -----------------------------  */
-.min-header {
+.min-header,
+.container {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
 
 .header {
-    width: 1200px;
+    width: 1040px;
     background-color: black;
     display: flex;
     align-items: center;
@@ -36,13 +37,13 @@ body {
 }
 
 .header-content h1 {
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
-    line-height: 70px;
+    line-height: 55px;
 }
 
 .header-content p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     margin-top: 10px;
     margin-bottom: 30px;
@@ -50,11 +51,11 @@ body {
 
 .header-btn {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: #ffffff;
     background-color: #DD0000;
-    padding: 10px 20px;
+    padding: 8px 16px;
     border-radius: 5px;
 }
 
@@ -75,3 +76,205 @@ body {
 }
 
 /* ----Header Styles End---- */
+
+
+
+/*-------------------------------- 
+    Blog-Section-Styles-Start
+---------------------------------*/
+.container {
+    padding: 40px 0;
+}
+
+.blog-sections {
+    width: 1040px;
+}
+
+
+/* ------- group-match-styles Start------- */
+.blog-sections {
+    display: flex;
+}
+
+.group-match {
+    width: 280px;
+    height: 260px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: 20px;
+}
+
+.group-match-btn {
+    display: grid;
+    grid-template-rows: repeat(1, 3fr);
+}
+
+.group-match-btn a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #161616;
+    width: 200px;
+    padding: 10px 0;
+    background-color: #ffffff;
+    margin: 14px 0;
+    border-radius: 10px;
+}
+
+a.blog-btn {
+    background-color: #DD0000;
+    color: #ffffff;
+}
+
+/* ------- group-match-styles End------- */
+
+/* ---------- Blogs Styles Start ----------- */
+.blog {
+    width: 780px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.blog-team {
+    border-radius: 12px;
+    border: 1px solid #ddd;
+}
+
+.blog-team-img img {
+    width: 100%;
+}
+
+.blog-team-info {
+    padding: 10px;
+}
+
+.blog-team-info a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #161616;
+    padding: 2px 10px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+}
+
+.info-description {
+    font-size: 16px;
+    font-weight: 600;
+    color: #161616;
+    padding: 5px 0;
+    margin-top: 4px;
+}
+
+.blog-live-time {
+    display: flex;
+}
+
+.blog-live-time p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(22, 22, 22, 0.7);
+    word-spacing: 7px;
+}
+
+.comment {
+    margin-left: 25px;
+}
+
+.blogs-footer-btn {
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.blogs-footers {
+    width: 1040px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.blogs-footers a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #DD0000;
+    padding: 5px 16px;
+    border-radius: 5px;
+}
+
+/* ----- Blogs Styles End ---- */
+
+/*----- Blog-Section-Style-End ----*/
+
+
+/*------------------------------
+        Footer Styles Start
+--------------------------------*/
+footer {
+    background-color: #161616;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0;
+    margin-top: 40px;
+}
+
+.footers {
+    width: 1040px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer-titel {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+hr {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 18px;
+}
+
+.footer-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    color: #B9B9B9;
+    padding: 0 20px;
+}
+
+.footer-social ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 35px;
+}
+
+.footer-social li {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border-radius: 15px;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-social a {
+    font-size: 14px;
+    color: #ffffff;
+}
